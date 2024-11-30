@@ -1,21 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/dirtyline-36daysoftype-2022');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+	--background: #0a0a0a;
+	--foreground: #ededed;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+	color: var(--foreground);
+	background: var(--background);
+	font-family: var(--font-geist);
+}
+
+.font-geist {
+	font-family: var(--font-geist);
+}
+
+.font-dirtyline {
+	font-family: 'Dirtyline 36Daysoftype 2022', sans-serif;
+}
+
+.name-container {
 }
