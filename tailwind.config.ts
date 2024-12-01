@@ -66,6 +66,10 @@ export default {
 					},
 				},
 			},
+			screens: {
+				xs: '425px',
+				'3xl': '1920px',
+			},
 		},
 	},
 	plugins: [tailwindcssAnimate],
