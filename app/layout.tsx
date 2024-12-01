@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { geist } from '@/app/fonts/fonts.config';
+import { funnel_Sans } from '@/lib/fonts.config';
 import MenuButton from '@/components/menu-button';
 import './globals.css';
 
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
 	return (
 		<html lang='en'>
-			<body className={`${geist.className} antialiased`}>
+			<body className={`${funnel_Sans.className} antialiased`}>
 				<MenuButton />
 				{children}
 			</body>
