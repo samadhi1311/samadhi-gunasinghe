@@ -2,7 +2,7 @@ import { cn } from '@/lib/utils';
 
 export default function RetroGrid({ className, angle = 65 }: { className?: string; angle?: number }) {
 	return (
-		<div className={cn('pointer-events-none absolute size-full overflow-hidden opacity-50 [perspective:200px]', className)} style={{ '--grid-angle': `${angle}deg` } as React.CSSProperties}>
+		<div className={cn('pointer-events-none -z-10 absolute size-full overflow-hidden opacity-50 [perspective:200px]', className)} style={{ '--grid-angle': `${angle}deg` } as React.CSSProperties}>
 			{/* Grid */}
 			<div className='absolute inset-0 [transform:rotateX(var(--grid-angle))]'>
 				<div
