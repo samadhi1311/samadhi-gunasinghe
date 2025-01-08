@@ -136,7 +136,7 @@ export default function Home() {
 						</P>
 					</section>
 
-					<section id='socials' className='my-32'>
+					<section id='socials' className='my-32 scroll-my-24'>
 						<H2 className='font-mono font-medium'>_socials</H2>
 						<P>All my personal stuff, work, humor is there. So, please don&apos;t judge me.</P>
 						<ul className='mt-2 list-inside list-disc'>
