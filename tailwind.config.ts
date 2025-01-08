@@ -53,23 +53,6 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)',
 			},
-			animation: {
-				grid: 'grid 30s linear infinite',
-			},
-			keyframes: {
-				grid: {
-					'0%': {
-						transform: 'translateY(-50%)',
-					},
-					'100%': {
-						transform: 'translateY(0)',
-					},
-				},
-			},
-			screens: {
-				xs: '425px',
-				'3xl': '1920px',
-			},
 		},
 	},
 	plugins: [tailwindcssAnimate],
