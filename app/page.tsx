@@ -1,3 +1,5 @@
+'use client';
+
 import { A, H1, H2, P, Page, Section } from '@/components/ui/base-styles';
 
 export default function Home() {
