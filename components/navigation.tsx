@@ -31,8 +31,8 @@ export default function Navigation() {
 						</SheetTrigger>
 						<SheetContent side='left' className='flex flex-col items-center justify-around'>
 							<SheetHeader>
-								<SheetTitle className='flex flex-col items-center gap-2'>I&apos;m Samadhi Gunasinghe</SheetTitle>
-								<SheetDescription asChild></SheetDescription>
+								<SheetTitle className='flex flex-col items-center gap-2'>Samadhi Gunasinghe</SheetTitle>
+								<SheetDescription>Welcome to my Portfolio</SheetDescription>
 							</SheetHeader>
 
 							<div className='flex flex-col items-center gap-8'>
